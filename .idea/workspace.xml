@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35ae4b63-0ce9-417a-8651-1549607d3926" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/stream/sort/SortListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stream/sort/SortMapDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +39,7 @@
     "Application.ForEachDemo.executor": "Run",
     "Application.PredicateDemo.executor": "Run",
     "Application.SortListDemo.executor": "Run",
+    "Application.SortMapDemo.executor": "Run",
     "Application.SupplierDemo.executor": "Run",
     "Application.TaxService.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
