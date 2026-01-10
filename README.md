@@ -13,6 +13,6 @@ Code Reduce
 Bulk Operation
 
 ## Methods:
-Filter - for conditional check
+Filter - for conditional check \
 forEach - for iteration
 
