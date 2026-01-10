@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35ae4b63-0ce9-417a-8651-1549607d3926" name="Changes" comment="" />
+    <list default="true" id="35ae4b63-0ce9-417a-8651-1549607d3926" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/demo/ForEachDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stream/api/example/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stream/api/example/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stream/api/example/TaxService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +24,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 6
 }]]></component>
@@ -30,10 +39,14 @@
     "Application.BookService.executor": "Run",
     "Application.CalculatorImpl.executor": "Run",
     "Application.ConsumerDemo.executor": "Run",
+    "Application.ForEachDemo.executor": "Run",
     "Application.PredicateDemo.executor": "Run",
     "Application.SupplierDemo.executor": "Run",
+    "Application.TaxService.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true"
   }
