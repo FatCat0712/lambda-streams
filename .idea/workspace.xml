@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35ae4b63-0ce9-417a-8651-1549607d3926" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/stream/sort/SortMapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javatechie/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javatechie/EkartDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javatechie/MapVsFlatMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,9 +26,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="382gYt9x8kaD0LZZ31U62PwcHVC" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
@@ -37,6 +39,7 @@
     "Application.CalculatorImpl.executor": "Run",
     "Application.ConsumerDemo.executor": "Run",
     "Application.ForEachDemo.executor": "Run",
+    "Application.MapVsFlatMap.executor": "Run",
     "Application.PredicateDemo.executor": "Run",
     "Application.SortListDemo.executor": "Run",
     "Application.SortMapDemo.executor": "Run",
@@ -45,6 +48,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true"
