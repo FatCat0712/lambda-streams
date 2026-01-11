@@ -1,6 +1,7 @@
 package javatechie;
 
 import java.util.List;
+import java.util.Optional;
 
 public class Customer {
     private int id;
@@ -34,8 +35,8 @@ public class Customer {
         this.name = name;
     }
 
-    public String getEmail() {
-        return email;
+    public Optional<String> getEmail() {
+        return Optional.ofNullable(email);
     }
 
     public void setEmail(String email) {

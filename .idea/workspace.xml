@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35ae4b63-0ce9-417a-8651-1549607d3926" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/javatechie/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javatechie/EkartDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javatechie/MapVsFlatMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javatechie/OptionalDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +37,7 @@
     "Application.ConsumerDemo.executor": "Run",
     "Application.ForEachDemo.executor": "Run",
     "Application.MapVsFlatMap.executor": "Run",
+    "Application.OptionalDemo.executor": "Run",
     "Application.PredicateDemo.executor": "Run",
     "Application.SortListDemo.executor": "Run",
     "Application.SortMapDemo.executor": "Run",
