@@ -1,15 +1,16 @@
 package javatechie.map_reduce;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 import java.util.stream.Stream;
 
 public class EmployeeDatabase {
     public static List<Employee> getEmployees() {
-        return List.of(
-                new Employee(101, "john", "A", 60000),
-                new Employee(102, "peter", "B", 30000),
-                new Employee(103, "mak", "A", 80000),
-                new Employee(104, "json", "C", 15000)
-        );
+       List<Employee> employees = new ArrayList<>();
+       for(int i = 1; i <= 1000; i++) {
+           employees.add(new Employee(i, "employee" + i , "A", new Random().nextInt(1000 * 100)));
+       }
+       return employees;
     }
 }

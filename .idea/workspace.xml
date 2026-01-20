@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35ae4b63-0ce9-417a-8651-1549607d3926" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/javatechie/map_reduce/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javatechie/map_reduce/EmployeeDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javatechie/map_reduce/MapReduceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parallel_stream/ParallelStreamExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javatechie/MapVsFlatMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatechie/MapVsFlatMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javatechie/map_reduce/EmployeeDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatechie/map_reduce/EmployeeDatabase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +41,7 @@
     "Application.MapReduceExample.executor": "Run",
     "Application.MapVsFlatMap.executor": "Run",
     "Application.OptionalDemo.executor": "Run",
+    "Application.ParallelStreamExample.executor": "Run",
     "Application.PredicateDemo.executor": "Run",
     "Application.SortListDemo.executor": "Run",
     "Application.SortMapDemo.executor": "Run",
@@ -54,7 +53,8 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/projects/java8"
   }
 }]]></component>
   <component name="TaskManager">
