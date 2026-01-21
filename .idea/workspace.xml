@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35ae4b63-0ce9-417a-8651-1549607d3926" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/parallel_stream/ParallelStreamExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javatechie/map_reduce/EmployeeDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatechie/map_reduce/EmployeeDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception_handling/CheckedExceptionHandleConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception_handling/ExceptionalHandlingExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -37,6 +36,7 @@
     "Application.BookService.executor": "Run",
     "Application.CalculatorImpl.executor": "Run",
     "Application.ConsumerDemo.executor": "Run",
+    "Application.ExceptionalHandlingExample.executor": "Run",
     "Application.ForEachDemo.executor": "Run",
     "Application.MapReduceExample.executor": "Run",
     "Application.MapVsFlatMap.executor": "Run",
