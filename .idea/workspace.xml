@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35ae4b63-0ce9-417a-8651-1549607d3926" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/stream/BiConsumerExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stream/BiFunctionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stream/BiPredicateExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/SkipLimitExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +45,7 @@
     "Application.OptionalDemo.executor": "Run",
     "Application.ParallelStreamExample.executor": "Run",
     "Application.PredicateDemo.executor": "Run",
+    "Application.SkipLimitExample.executor": "Run",
     "Application.SortListDemo.executor": "Run",
     "Application.SortMapDemo.executor": "Run",
     "Application.StreamDebuggingSession.executor": "Debug",
