@@ -1,4 +1,4 @@
-package exception_handling;
+package javatechie.exception_handling;
 
 import java.util.Arrays;
 import java.util.List;

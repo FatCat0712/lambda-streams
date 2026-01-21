@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35ae4b63-0ce9-417a-8651-1549607d3926" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/exception_handling/CheckedExceptionHandleConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception_handling/ExceptionalHandlingExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javatechie/map_reduce/StreamDebuggingSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exception_handling/CheckedExceptionHandleConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatechie/exception_handling/CheckedExceptionHandleConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exception_handling/ExceptionalHandlingExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatechie/exception_handling/ExceptionalHandlingExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javatechie/map_reduce/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatechie/map_reduce/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javatechie/map_reduce/EmployeeDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatechie/map_reduce/EmployeeDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parallel_stream/ParallelStreamExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatechie/parallel_stream/ParallelStreamExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -45,6 +49,7 @@
     "Application.PredicateDemo.executor": "Run",
     "Application.SortListDemo.executor": "Run",
     "Application.SortMapDemo.executor": "Run",
+    "Application.StreamDebuggingSession.executor": "Debug",
     "Application.SupplierDemo.executor": "Run",
     "Application.TaxService.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -54,7 +59,8 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/projects/java8"
+    "last_opened_file_path": "D:/projects/java8",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="TaskManager">
@@ -66,5 +72,16 @@
       <updated>1768003134241</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/javatechie/map_reduce/StreamDebuggingSession.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,4 +1,4 @@
-package parallel_stream;
+package javatechie.parallel_stream;
 
 import javatechie.map_reduce.Employee;
 import javatechie.map_reduce.EmployeeDatabase;

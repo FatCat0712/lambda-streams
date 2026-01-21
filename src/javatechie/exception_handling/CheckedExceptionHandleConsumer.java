@@ -1,4 +1,4 @@
-package exception_handling;
+package javatechie.exception_handling;
 
 @FunctionalInterface
 public interface CheckedExceptionHandleConsumer<Target, ExObj extends Exception> {
