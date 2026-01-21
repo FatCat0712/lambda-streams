@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35ae4b63-0ce9-417a-8651-1549607d3926" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/demo/SkipLimitExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javatechie/method_reference/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javatechie/method_reference/EmployeeDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javatechie/method_reference/EmployeeManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javatechie/method_reference/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javatechie/method_reference/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javatechie/method_reference/MethodReferenceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javatechie/method_reference/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -42,6 +48,7 @@
     "Application.ForEachDemo.executor": "Run",
     "Application.MapReduceExample.executor": "Run",
     "Application.MapVsFlatMap.executor": "Run",
+    "Application.MethodReferenceDemo.executor": "Run",
     "Application.OptionalDemo.executor": "Run",
     "Application.ParallelStreamExample.executor": "Run",
     "Application.PredicateDemo.executor": "Run",
@@ -51,6 +58,7 @@
     "Application.StreamDebuggingSession.executor": "Debug",
     "Application.SupplierDemo.executor": "Run",
     "Application.TaxService.executor": "Run",
+    "Application.Test.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
