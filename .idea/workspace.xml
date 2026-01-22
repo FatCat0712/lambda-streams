@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35ae4b63-0ce9-417a-8651-1549607d3926" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/javatechie/NthHighestSalaryDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/JavaStreamFeatures.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +42,7 @@
     "Application.ExceptionalHandlingExample.executor": "Run",
     "Application.ForEachDemo.executor": "Run",
     "Application.Java8FrequentProgrammingQA.executor": "Run",
+    "Application.JavaStreamFeatures.executor": "Run",
     "Application.MapReduceExample.executor": "Run",
     "Application.MapVsFlatMap.executor": "Run",
     "Application.MethodReferenceDemo.executor": "Run",
