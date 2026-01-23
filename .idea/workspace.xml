@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35ae4b63-0ce9-417a-8651-1549607d3926" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/eazybytes/CatchingMultipleExceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eazybytes/RethrowException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +37,7 @@
     "Application.BiPredicateExample.executor": "Run",
     "Application.BookService.executor": "Run",
     "Application.CalculatorImpl.executor": "Run",
+    "Application.CatchingMultipleExceptions.executor": "Run",
     "Application.CollectionHiddenMethods.executor": "Run",
     "Application.ConsumerDemo.executor": "Run",
     "Application.ExceptionalHandlingExample.executor": "Run",
