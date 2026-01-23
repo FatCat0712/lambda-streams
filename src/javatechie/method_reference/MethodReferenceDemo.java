@@ -53,7 +53,7 @@ public class MethodReferenceDemo {
 
 
 //        List<EmployeeDO> employeeDOS = service.loadEmployeesFromDB()
-//                .stream()
+//                .javatechie.stream()
 //                .map(new Function<Employee, EmployeeDO>() {
 //                    @Override
 //                    public EmployeeDO apply(Employee employee) {

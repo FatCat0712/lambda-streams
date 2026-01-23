@@ -5,7 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35ae4b63-0ce9-417a-8651-1549607d3926" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/features/CollectionHiddenMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eazybytes/CustomResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eazybytes/TryWithResources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eazybytes/eazybytes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatechie/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo/CalculatorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatechie/demo/CalculatorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo/ForEachDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatechie/demo/ForEachDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo/MyFunctionalInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatechie/demo/MyFunctionalInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo/SkipLimitExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatechie/demo/SkipLimitExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatechie/example/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example/BookDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatechie/example/BookDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatechie/example/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/CollectionHiddenMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatechie/features/CollectionHiddenMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatechie/features/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/Java8FrequentProgrammingQA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatechie/features/Java8FrequentProgrammingQA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/JavaStreamFeatures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatechie/features/JavaStreamFeatures.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/functional/ConsumerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatechie/functional/ConsumerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/functional/PredicateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatechie/functional/PredicateDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/functional/SupplierDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatechie/functional/SupplierDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javatechie/MapVsFlatMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatechie/MapVsFlatMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javatechie/exception_handling/ExceptionalHandlingExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatechie/exception_handling/ExceptionalHandlingExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javatechie/method_reference/MethodReferenceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatechie/method_reference/MethodReferenceDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javatechie/parallel_stream/ParallelStreamExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatechie/parallel_stream/ParallelStreamExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stream/BiConsumerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatechie/stream/BiConsumerExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stream/BiFunctionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatechie/stream/BiFunctionExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stream/BiPredicateExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatechie/stream/BiPredicateExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stream/api/example/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatechie/stream/api/example/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stream/api/example/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatechie/stream/api/example/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stream/api/example/TaxService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatechie/stream/api/example/TaxService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stream/sort/SortListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatechie/stream/sort/SortListDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stream/sort/SortMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatechie/stream/sort/SortMapDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +87,7 @@
     "Application.SupplierDemo.executor": "Run",
     "Application.TaxService.executor": "Run",
     "Application.Test.executor": "Run",
+    "Application.TryWithResources.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -68,6 +99,11 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\java8\src\javatechie" />
+    </key>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="35ae4b63-0ce9-417a-8651-1549607d3926" name="Changes" comment="" />

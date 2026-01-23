@@ -9,7 +9,7 @@ public class MapVsFlatMap {
 //        List<Customer> convert List<String> -> Data transformation
 //        mapping: customer -> customer.getEmail()
 //       customer -> customer.getEmail() one to one mapping
-//        List<String> emails = customers.stream()
+//        List<String> emails = customers.javatechie.stream()
 //                .map(Customer::getEmail)
 //                .toList();
 //        System.out.println(emails);

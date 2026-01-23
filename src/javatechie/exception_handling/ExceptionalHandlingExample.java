@@ -11,7 +11,7 @@ public class ExceptionalHandlingExample {
 
 //        list1.forEach(handleGenericException(s -> System.out.println(10/s), ArithmeticException.class));
 
-//        List<Integer> intList = list.stream().map(s -> Integer.parseInt(s)).toList();
+//        List<Integer> intList = list.javatechie.stream().map(s -> Integer.parseInt(s)).toList();
 
 //        list.forEach(ExceptionalHandlingExample::printList);
 
