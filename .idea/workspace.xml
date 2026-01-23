@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35ae4b63-0ce9-417a-8651-1549607d3926" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/eazybytes/CustomDirtyResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eazybytes/SuppressedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eazybytes/CatchingMultipleExceptions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
