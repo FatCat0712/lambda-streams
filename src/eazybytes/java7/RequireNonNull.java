@@ -1,4 +1,4 @@
-package eazybytes;
+package eazybytes.java7;
 
 import java.util.Objects;
 
