@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35ae4b63-0ce9-417a-8651-1549607d3926" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/eazybytes/SafeVarExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eazybytes/java7/DiamondOperator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,12 +35,14 @@
     "Application.BiConsumerExample.executor": "Run",
     "Application.BiFunctionExample.executor": "Run",
     "Application.BiPredicateExample.executor": "Run",
+    "Application.BinaryLiterals.executor": "Run",
     "Application.BookService.executor": "Run",
     "Application.CalculatorImpl.executor": "Run",
     "Application.CatchingMultipleExceptions.executor": "Run",
     "Application.CollectionHiddenMethods.executor": "Run",
     "Application.ConsumerDemo.executor": "Run",
     "Application.ExceptionalHandlingExample.executor": "Run",
+    "Application.FilesInJava7.executor": "Run",
     "Application.ForEachDemo.executor": "Run",
     "Application.Java8FrequentProgrammingQA.executor": "Run",
     "Application.JavaStreamFeatures.executor": "Run",
@@ -50,6 +52,7 @@
     "Application.NthHighestSalaryDemo.executor": "Run",
     "Application.OptionalDemo.executor": "Run",
     "Application.ParallelStreamExample.executor": "Run",
+    "Application.PathsInJava7.executor": "Run",
     "Application.PredicateDemo.executor": "Run",
     "Application.RequireNonNull.executor": "Run",
     "Application.RethrowException.executor": "Run",
@@ -60,9 +63,11 @@
     "Application.StreamDebuggingSession.executor": "Debug",
     "Application.SupplierDemo.executor": "Run",
     "Application.SuppressedException.executor": "Run",
+    "Application.SwitchWithString.executor": "Run",
     "Application.TaxService.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.TryWithResources.executor": "Run",
+    "Application.WatchServiceInJava7.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -76,6 +81,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\java8\src\eazybytes\java7" />
       <recent name="D:\projects\java8\src\javatechie" />
     </key>
   </component>
