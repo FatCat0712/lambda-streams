@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35ae4b63-0ce9-417a-8651-1549607d3926" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/eazybytes/java7/DiamondOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eazybytes/java7/ForkJoinExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eazybytes/java7/UnderScoreInNumerics.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +45,7 @@
     "Application.ExceptionalHandlingExample.executor": "Run",
     "Application.FilesInJava7.executor": "Run",
     "Application.ForEachDemo.executor": "Run",
+    "Application.ForkJoinExample.executor": "Run",
     "Application.Java8FrequentProgrammingQA.executor": "Run",
     "Application.JavaStreamFeatures.executor": "Run",
     "Application.MapReduceExample.executor": "Run",
@@ -67,6 +69,7 @@
     "Application.TaxService.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.TryWithResources.executor": "Run",
+    "Application.UnderScoreInNumerics.executor": "Run",
     "Application.WatchServiceInJava7.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
