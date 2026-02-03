@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35ae4b63-0ce9-417a-8651-1549607d3926" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/eazybytes/java8/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eazybytes/java8/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eazybytes/java8/OptionalExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,57 +30,60 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BiConsumerExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BiFunctionExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BiPredicateExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BinaryLiterals.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BookService.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CalculatorImpl.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CatchingMultipleExceptions.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CollectionHiddenMethods.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConsumerDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExceptionalHandlingExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FilesInJava7.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ForEachDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ForkJoinExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Java8FrequentProgrammingQA.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JavaStreamFeatures.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MapReduceExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MapVsFlatMap.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MethodReferenceDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NthHighestSalaryDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OptionalDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ParallelStreamExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PathsInJava7.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PredicateDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RequireNonNull.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RethrowException.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SafeVarExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SkipLimitExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SortListDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SortMapDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StreamDebuggingSession.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.SupplierDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SuppressedException.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SwitchWithString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TaxService.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TryWithResources.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UnderScoreInNumerics.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WatchServiceInJava7.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/projects/java8&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BiConsumerExample.executor": "Run",
+    "Application.BiFunctionExample.executor": "Run",
+    "Application.BiPredicateExample.executor": "Run",
+    "Application.BinaryLiterals.executor": "Run",
+    "Application.BookService.executor": "Run",
+    "Application.CalculatorImpl.executor": "Run",
+    "Application.CatchingMultipleExceptions.executor": "Run",
+    "Application.CollectionHiddenMethods.executor": "Run",
+    "Application.ConsumerDemo.executor": "Run",
+    "Application.ExceptionalHandlingExample.executor": "Run",
+    "Application.FilesInJava7.executor": "Run",
+    "Application.ForEachDemo.executor": "Run",
+    "Application.ForkJoinExample.executor": "Run",
+    "Application.Honda.executor": "Run",
+    "Application.Java8FrequentProgrammingQA.executor": "Run",
+    "Application.JavaStreamFeatures.executor": "Run",
+    "Application.MapReduceExample.executor": "Run",
+    "Application.MapVsFlatMap.executor": "Run",
+    "Application.MethodReferenceDemo.executor": "Run",
+    "Application.NthHighestSalaryDemo.executor": "Run",
+    "Application.OptionalDemo.executor": "Run",
+    "Application.OptionalExample.executor": "Debug",
+    "Application.ParallelStreamExample.executor": "Run",
+    "Application.PathsInJava7.executor": "Run",
+    "Application.PredicateDemo.executor": "Run",
+    "Application.RequireNonNull.executor": "Run",
+    "Application.RethrowException.executor": "Run",
+    "Application.SafeVarExample.executor": "Run",
+    "Application.SkipLimitExample.executor": "Run",
+    "Application.SortListDemo.executor": "Run",
+    "Application.SortMapDemo.executor": "Run",
+    "Application.StaticMain.executor": "Run",
+    "Application.StreamDebuggingSession.executor": "Debug",
+    "Application.SupplierDemo.executor": "Run",
+    "Application.SuppressedException.executor": "Run",
+    "Application.SwitchWithString.executor": "Run",
+    "Application.TaxService.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.TryWithResources.executor": "Run",
+    "Application.UnderScoreInNumerics.executor": "Run",
+    "Application.WatchServiceInJava7.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/projects/java8",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\projects\java8\src\eazybytes\java7" />
