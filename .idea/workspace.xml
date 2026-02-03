@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35ae4b63-0ce9-417a-8651-1549607d3926" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/eazybytes/java8/Honda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eazybytes/java8/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eazybytes/java8/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eazybytes/java8/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

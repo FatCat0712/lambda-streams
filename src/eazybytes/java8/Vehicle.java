@@ -6,4 +6,8 @@ public interface Vehicle {
     default void autoPilot(){
         System.out.println("I will help in driving with out manual support");
     }
+
+    static void sayHello() {
+        System.out.println("Hi, this is your favorite car");
+    }
 }

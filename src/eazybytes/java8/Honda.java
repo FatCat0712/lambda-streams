@@ -20,6 +20,7 @@ public class Honda implements Vehicle{
         Honda honda = new Honda();
         honda.applyBreak();
         honda.autoPilot();
+        Vehicle.sayHello();
         Honda.sayHello();
     }
 
