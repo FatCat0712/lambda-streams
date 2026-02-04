@@ -5,14 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35ae4b63-0ce9-417a-8651-1549607d3926" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/eazybytes/java8/PredicateExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eazybytes/java8/OptionalExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eazybytes/java8/OptionalExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eazybytes/java8/lambda/util/ArithmeticOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eazybytes/java8/lambda/util/ArithmeticOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eazybytes/java8/FunctionExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_D:/projects/java8" value="382gYt9x8kaD0LZZ31U62PwcHVC" />
+    </persistenceIdMap>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -48,6 +51,7 @@
     "Application.FilesInJava7.executor": "Run",
     "Application.ForEachDemo.executor": "Run",
     "Application.ForkJoinExample.executor": "Run",
+    "Application.FunctionExample.executor": "Debug",
     "Application.Honda.executor": "Run",
     "Application.Java8FrequentProgrammingQA.executor": "Run",
     "Application.JavaStreamFeatures.executor": "Run",
@@ -86,7 +90,8 @@
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/projects/java8",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.splitter.proportion": "0.27800408"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -118,5 +123,13 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>
