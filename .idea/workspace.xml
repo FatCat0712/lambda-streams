@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35ae4b63-0ce9-417a-8651-1549607d3926" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/eazybytes/java8/FunctionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eazybytes/java8/UnaryOperatorExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +80,7 @@
     "Application.TaxService.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.TryWithResources.executor": "Run",
+    "Application.UnaryOperatorExample.executor": "Run",
     "Application.UnderScoreInNumerics.executor": "Run",
     "Application.WatchServiceInJava7.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
