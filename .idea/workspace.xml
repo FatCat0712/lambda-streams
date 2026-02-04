@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35ae4b63-0ce9-417a-8651-1549607d3926" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/eazybytes/java8/OptionalExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eazybytes/java8/lambda/AnonymousVsLambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eazybytes/java8/lambda/LambdaExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eazybytes/java8/lambda/ReturnMethodWithTwoParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eazybytes/java8/lambda/VoidMethodWithNoParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eazybytes/java8/lambda/VoidMethodWithOneParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eazybytes/java8/lambda/VoidMethodWithTwoParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eazybytes/java8/lambda/util/ArithmeticImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eazybytes/java8/lambda/util/ArithmeticOperation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +39,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AnonymousVsLambda.executor": "Run",
     "Application.BiConsumerExample.executor": "Run",
     "Application.BiFunctionExample.executor": "Run",
     "Application.BiPredicateExample.executor": "Run",
@@ -48,6 +56,7 @@
     "Application.Honda.executor": "Run",
     "Application.Java8FrequentProgrammingQA.executor": "Run",
     "Application.JavaStreamFeatures.executor": "Run",
+    "Application.LambdaExamples.executor": "Run",
     "Application.MapReduceExample.executor": "Run",
     "Application.MapVsFlatMap.executor": "Run",
     "Application.MethodReferenceDemo.executor": "Run",
