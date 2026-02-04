@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35ae4b63-0ce9-417a-8651-1549607d3926" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/eazybytes/java8/lambda/AnonymousVsLambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eazybytes/java8/lambda/LambdaExamples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eazybytes/java8/lambda/ReturnMethodWithTwoParams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eazybytes/java8/lambda/VoidMethodWithNoParams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eazybytes/java8/lambda/VoidMethodWithOneParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eazybytes/java8/lambda/VoidMethodWithTwoParams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eazybytes/java8/lambda/util/ArithmeticImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eazybytes/java8/lambda/util/ArithmeticOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eazybytes/java8/PredicateExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eazybytes/java8/OptionalExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eazybytes/java8/OptionalExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eazybytes/java8/lambda/util/ArithmeticOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eazybytes/java8/lambda/util/ArithmeticOperation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +61,7 @@
     "Application.ParallelStreamExample.executor": "Run",
     "Application.PathsInJava7.executor": "Run",
     "Application.PredicateDemo.executor": "Run",
+    "Application.PredicateExample.executor": "Debug",
     "Application.RequireNonNull.executor": "Run",
     "Application.RethrowException.executor": "Run",
     "Application.SafeVarExample.executor": "Run",
@@ -108,5 +104,19 @@
       <updated>1768003134241</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/eazybytes/java8/PredicateExample.java</url>
+          <line>10</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

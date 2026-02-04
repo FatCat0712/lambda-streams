@@ -45,7 +45,7 @@ public class OptionalExample {
 
 //        Filter on Optional
         System.out.println(country.filter(g -> g.equals("india"))); // Optional.empty
-        System.out.println(country.filter(g -> g.equalsIgnoreCase("INDIA"))); // Optional[MALE]
+        System.out.println(country.filter(g -> g.equalsIgnoreCase("INDIA"))); // Optional[INDIA]
         System.out.println(emptyCountry.filter(g -> g.equalsIgnoreCase("INDIA"))); // Optional.empty
 
         if(country.isPresent()) {
