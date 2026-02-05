@@ -10,7 +10,8 @@ public class StreamOperations {
 //        filterInStreams();
 //        limitInStreams();
 //        skipInStreams();
-        traverseOnceInStreams();
+//        traverseOnceInStreams();
+        reduceInStreams();
     }
 
     public static void mapInStreams() {
@@ -57,6 +58,10 @@ public class StreamOperations {
 
     public static void skipInStreams() {
         Stream.iterate(1, n -> n +1).skip(10).limit(20).forEach(System.out::println);
+    }
+
+    public static void reduceInStreams() {
+        System.out.println(Stream.iterate(1, n -> n + 1).limit(20).reduce(0, (a,b)-> a + b));
     }
 
     public static void traverseOnceInStreams() {
