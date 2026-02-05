@@ -6,7 +6,8 @@ import java.util.stream.Stream;
 public class StreamOperations {
     public static void main(String[] args) {
 //        mapInStreams();
-        flatMapInStreams();
+//        flatMapInStreams();
+        filterInStreams();
     }
 
     public static void mapInStreams() {
@@ -34,11 +35,17 @@ public class StreamOperations {
         System.out.println(list);
         list.stream().map(Collection::stream).forEach(System.out::println);
         list.stream().flatMap(Collection::stream).forEach(System.out::println);
+    }
 
+    public static void filterInStreams() {
+        List<String> departmentList = new ArrayList<>();
+        departmentList.add("Supply");
+        departmentList.add("HR");
+        departmentList.add("Sales");
+        departmentList.add("Marketing");
 
-
-
-
+        Stream<String> depStream = departmentList.stream();
+        depStream.filter(word -> word.startsWith("S")).forEach(System.out::println);
     }
 
 

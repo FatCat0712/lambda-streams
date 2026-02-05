@@ -79,7 +79,7 @@
     "Application.SortMapDemo.executor": "Run",
     "Application.StaticMain.executor": "Run",
     "Application.StreamDebuggingSession.executor": "Debug",
-    "Application.StreamOperations.executor": "Debug",
+    "Application.StreamOperations.executor": "Run",
     "Application.SupplierDemo.executor": "Run",
     "Application.SupplierExample.executor": "Run",
     "Application.SuppressedException.executor": "Run",
