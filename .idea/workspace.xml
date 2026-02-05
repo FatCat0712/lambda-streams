@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35ae4b63-0ce9-417a-8651-1549607d3926" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/eazybytes/java8/streams/SimpleStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eazybytes/java8/streams/StreamOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eazybytes/java8/streams/StreamOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eazybytes/java8/streams/StreamOperations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +79,7 @@
     "Application.SortMapDemo.executor": "Run",
     "Application.StaticMain.executor": "Run",
     "Application.StreamDebuggingSession.executor": "Debug",
-    "Application.StreamOperations.executor": "Run",
+    "Application.StreamOperations.executor": "Debug",
     "Application.SupplierDemo.executor": "Run",
     "Application.SupplierExample.executor": "Run",
     "Application.SuppressedException.executor": "Run",
