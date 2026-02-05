@@ -7,7 +7,10 @@ public class StreamOperations {
     public static void main(String[] args) {
 //        mapInStreams();
 //        flatMapInStreams();
-        filterInStreams();
+//        filterInStreams();
+//        limitInStreams();
+//        skipInStreams();
+        traverseOnceInStreams();
     }
 
     public static void mapInStreams() {
@@ -47,6 +50,31 @@ public class StreamOperations {
         Stream<String> depStream = departmentList.stream();
         depStream.filter(word -> word.startsWith("S")).forEach(System.out::println);
     }
+
+    public static void limitInStreams() {
+        Stream.generate(new Random()::nextInt).limit(10).forEach(System.out::println);
+    }
+
+    public static void skipInStreams() {
+        Stream.iterate(1, n -> n +1).skip(10).limit(20).forEach(System.out::println);
+    }
+
+    public static void traverseOnceInStreams() {
+        try {
+            List<String> departmentList = new ArrayList<>();
+            departmentList.add("Supply");
+            departmentList.add("HR");
+            departmentList.add("Sales");
+            departmentList.add("Marketing");
+            Stream<String> depStream = departmentList.stream();
+            depStream.forEach(System.out::println);
+            depStream.forEach(System.out::println);
+        }catch (Exception ex) {
+            ex.printStackTrace();
+        }
+    }
+
+
 
 
 }
