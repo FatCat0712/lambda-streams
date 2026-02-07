@@ -18,7 +18,9 @@ public class StreamOperations {
 //        collectStreams();
 //        collectingAndThenStreams();
 //        groupByStream();
-        partitioningByStreams();
+//        partitioningByStreams();
+//        streamPipeline();
+        parallelStreams();
     }
 
     public static void mapInStreams() {
@@ -69,6 +71,21 @@ public class StreamOperations {
 
     public static void reduceInStreams() {
         System.out.println(Stream.iterate(1, n -> n + 1).limit(20).reduce(0, (a,b)-> a + b));
+    }
+
+    public static void traverseOnceInStreams() {
+        try {
+            List<String> departmentList = new ArrayList<>();
+            departmentList.add("Supply");
+            departmentList.add("HR");
+            departmentList.add("Sales");
+            departmentList.add("Marketing");
+            Stream<String> depStream = departmentList.stream();
+            depStream.forEach(System.out::println);
+            depStream.forEach(System.out::println);
+        }catch (Exception ex) {
+            ex.printStackTrace();
+        }
     }
 
     public static void collectStreams() {
@@ -135,19 +152,36 @@ public class StreamOperations {
         System.out.println("The list of products partitioned by price is : " + costlyProducts);
     }
 
-    public static void traverseOnceInStreams() {
-        try {
-            List<String> departmentList = new ArrayList<>();
-            departmentList.add("Supply");
-            departmentList.add("HR");
-            departmentList.add("Sales");
-            departmentList.add("Marketing");
-            Stream<String> depStream = departmentList.stream();
-            depStream.forEach(System.out::println);
-            depStream.forEach(System.out::println);
-        }catch (Exception ex) {
-            ex.printStackTrace();
-        }
+    private static void streamPipeline() {
+        List<Integer> inputNums = new ArrayList<>();
+        inputNums.add(5);
+        inputNums.add(2);
+        inputNums.add(11);
+        inputNums.add(7);
+        inputNums.add(4);
+        inputNums.add(13);
+        inputNums.add(9);
+
+        List<Integer> newNums = inputNums.stream()
+                .filter(num -> num % 2 != 0)
+                .map(num -> num * num)
+                .sorted()
+                .collect(Collectors.toList());
+
+        newNums.forEach(System.out::println);
+    }
+
+    public static void parallelStreams() {
+        List<String> departmentList = new ArrayList<>();
+        departmentList.add("Supply");
+        departmentList.add("HR");
+        departmentList.add("Sales");
+        departmentList.add("Marketing");
+        departmentList.add("Insurance");
+        departmentList.add("Security");
+        departmentList.add("Finance");
+
+        departmentList.parallelStream().forEach(System.out::println);
     }
 
 
