@@ -16,7 +16,8 @@ public class StreamOperations {
 //        traverseOnceInStreams();
 //        reduceInStreams();
 //        collectStreams();
-        collectingAndThenStreams();
+//        collectingAndThenStreams();
+        groupByStream();
     }
 
     public static void mapInStreams() {
@@ -97,6 +98,23 @@ public class StreamOperations {
                         (Optional<Product> product) -> product.isPresent() ? product.get().getName() : "None"));
 
         System.out.println("The product with max price tag is: " + maxPriceProduct);
+    }
+
+    public static void groupByStream() {
+        List<Product> productList = Arrays.asList(
+                new Product("Apple", 1200),
+                new Product("Samsung", 1000),
+                new Product("Nokia", 800),
+                new Product("BlackBerry", 1000),
+                new Product("Apple Pro Max", 1500),
+                new Product("Mi", 800),
+                new Product("OnePlus", 1000)
+        );
+
+        Map<Integer, List<Product>> groupByPriceMap = productList.stream()
+                .collect(Collectors.groupingBy(Product::getPrice));
+
+        System.out.println("The list of products grouped by price is: " + groupByPriceMap);
     }
 
     public static void traverseOnceInStreams() {

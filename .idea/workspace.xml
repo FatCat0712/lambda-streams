@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35ae4b63-0ce9-417a-8651-1549607d3926" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/eazybytes/java8/streams/StreamOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eazybytes/java8/streams/StreamOperations.java" afterDir="false" />
-    </list>
+    <list default="true" id="35ae4b63-0ce9-417a-8651-1549607d3926" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
