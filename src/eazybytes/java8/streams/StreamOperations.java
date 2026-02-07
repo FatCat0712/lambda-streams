@@ -1,5 +1,7 @@
 package eazybytes.java8.streams;
 
+import eazybytes.java8.Product;
+
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -13,7 +15,8 @@ public class StreamOperations {
 //        skipInStreams();
 //        traverseOnceInStreams();
 //        reduceInStreams();
-        collectStreams();
+//        collectStreams();
+        collectingAndThenStreams();
     }
 
     public static void mapInStreams() {
@@ -76,8 +79,24 @@ public class StreamOperations {
         Stream<String> depStream = departmentList.stream();
         List<String> newDepartmentList = depStream.filter(word -> word.startsWith("S")).collect(Collectors.toList());
         newDepartmentList.forEach(System.out::println);
+    }
 
+    public static void collectingAndThenStreams() {
+        List<Product> productList = Arrays.asList(
+                new Product("Applie", 1200),
+                new Product("Samsung", 1000),
+                new Product("Nokia", 800),
+                new Product("BlackBerry", 1000),
+                new Product("Apple Pro Max", 1500),
+                new Product("Mi", 800),
+                new Product("OnePlus", 1000)
+        );
 
+        String maxPriceProduct = productList.stream()
+                .collect(Collectors.collectingAndThen(Collectors.maxBy(Comparator.comparing(Product::getPrice)),
+                        (Optional<Product> product) -> product.isPresent() ? product.get().getName() : "None"));
+
+        System.out.println("The product with max price tag is: " + maxPriceProduct);
     }
 
     public static void traverseOnceInStreams() {
