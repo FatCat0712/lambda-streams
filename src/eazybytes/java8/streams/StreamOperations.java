@@ -17,7 +17,8 @@ public class StreamOperations {
 //        reduceInStreams();
 //        collectStreams();
 //        collectingAndThenStreams();
-        groupByStream();
+//        groupByStream();
+        partitioningByStreams();
     }
 
     public static void mapInStreams() {
@@ -115,6 +116,23 @@ public class StreamOperations {
                 .collect(Collectors.groupingBy(Product::getPrice));
 
         System.out.println("The list of products grouped by price is: " + groupByPriceMap);
+    }
+
+    public static void partitioningByStreams() {
+        List<Product> productList = Arrays.asList(
+                new Product("Apple", 1200),
+                new Product("Samsung", 1000),
+                new Product("Nokia", 800),
+                new Product("BlackBerry", 1000),
+                new Product("Apple Pro Max", 1500),
+                new Product("Mi", 800),
+                new Product("OnePlus", 1000)
+        );
+
+        Map<Boolean, List<Product>> costlyProducts = productList.stream()
+                .collect(Collectors.partitioningBy(product -> product.getPrice() > 1000));
+
+        System.out.println("The list of products partitioned by price is : " + costlyProducts);
     }
 
     public static void traverseOnceInStreams() {
