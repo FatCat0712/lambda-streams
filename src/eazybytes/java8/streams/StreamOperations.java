@@ -1,6 +1,7 @@
 package eazybytes.java8.streams;
 
 import java.util.*;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class StreamOperations {
@@ -11,7 +12,8 @@ public class StreamOperations {
 //        limitInStreams();
 //        skipInStreams();
 //        traverseOnceInStreams();
-        reduceInStreams();
+//        reduceInStreams();
+        collectStreams();
     }
 
     public static void mapInStreams() {
@@ -62,6 +64,20 @@ public class StreamOperations {
 
     public static void reduceInStreams() {
         System.out.println(Stream.iterate(1, n -> n + 1).limit(20).reduce(0, (a,b)-> a + b));
+    }
+
+    public static void collectStreams() {
+        List<String> departmentList = new ArrayList<>();
+        departmentList.add("Supply");
+        departmentList.add("HR");
+        departmentList.add("Sales");
+        departmentList.add("Marketing");
+
+        Stream<String> depStream = departmentList.stream();
+        List<String> newDepartmentList = depStream.filter(word -> word.startsWith("S")).collect(Collectors.toList());
+        newDepartmentList.forEach(System.out::println);
+
+
     }
 
     public static void traverseOnceInStreams() {
