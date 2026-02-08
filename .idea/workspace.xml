@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35ae4b63-0ce9-417a-8651-1549607d3926" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/eazybytes/java8/datetime/LocalDateExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eazybytes/java8/datetime/LocalDateTimeExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eazybytes/java8/datetime/LocalTimeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eazybytes/java8/datetime/InstantExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +55,7 @@
     "Application.ForkJoinExample.executor": "Run",
     "Application.FunctionExample.executor": "Debug",
     "Application.Honda.executor": "Run",
+    "Application.InstantExample.executor": "Run",
     "Application.Java8FrequentProgrammingQA.executor": "Run",
     "Application.JavaStreamFeatures.executor": "Run",
     "Application.LambdaExamples.executor": "Run",
