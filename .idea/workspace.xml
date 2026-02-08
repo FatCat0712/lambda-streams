@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35ae4b63-0ce9-417a-8651-1549607d3926" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/eazybytes/java8/datetime/InstantExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eazybytes/java8/datetime/TimeZoneExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +60,7 @@
     "Application.JavaStreamFeatures.executor": "Run",
     "Application.LambdaExamples.executor": "Run",
     "Application.LocalDateExample.executor": "Debug",
+    "Application.LocalDateTimeExample.executor": "Run",
     "Application.LocalTimeExample.executor": "Debug",
     "Application.MapReduceExample.executor": "Run",
     "Application.MapVsFlatMap.executor": "Run",
@@ -89,6 +90,7 @@
     "Application.SwitchWithString.executor": "Run",
     "Application.TaxService.executor": "Run",
     "Application.Test.executor": "Run",
+    "Application.TimeZoneExample.executor": "Run",
     "Application.TryWithResources.executor": "Run",
     "Application.UnaryOperatorExample.executor": "Run",
     "Application.UnderScoreInNumerics.executor": "Run",
@@ -128,6 +130,11 @@
           <url>file://$PROJECT_DIR$/src/eazybytes/java8/datetime/LocalDateExample.java</url>
           <line>9</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/eazybytes/java8/datetime/InstantExample.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
