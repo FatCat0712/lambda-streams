@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35ae4b63-0ce9-417a-8651-1549607d3926" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/eazybytes/java8/completableFuture/CompletableFutureExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eazybytes/java8/misc/MapEnhancementsExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eazybytes/java8/misc/MiscellaneousExamples.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +69,7 @@
     "Application.MapVsFlatMap.executor": "Run",
     "Application.MethodReference.executor": "Run",
     "Application.MethodReferenceDemo.executor": "Run",
+    "Application.MiscellaneousExamples.executor": "Run",
     "Application.NthHighestSalaryDemo.executor": "Run",
     "Application.OptionalDemo.executor": "Run",
     "Application.OptionalExample.executor": "Debug",
