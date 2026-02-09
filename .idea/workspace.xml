@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35ae4b63-0ce9-417a-8651-1549607d3926" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/eazybytes/java8/datetime/DateTimeFormatterExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eazybytes/java8/completableFuture/CompletableFutureExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eazybytes/java8/misc/MapEnhancementsExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +48,7 @@
     "Application.CalculatorImpl.executor": "Run",
     "Application.CatchingMultipleExceptions.executor": "Run",
     "Application.CollectionHiddenMethods.executor": "Run",
+    "Application.CompletableFutureExample.executor": "Run",
     "Application.ConsumerDemo.executor": "Run",
     "Application.ConsumerExample.executor": "Run",
     "Application.DateTimeFormatterExample.executor": "Run",
@@ -63,6 +65,7 @@
     "Application.LocalDateExample.executor": "Debug",
     "Application.LocalDateTimeExample.executor": "Run",
     "Application.LocalTimeExample.executor": "Debug",
+    "Application.MapEnhancementsExample.executor": "Debug",
     "Application.MapReduceExample.executor": "Run",
     "Application.MapVsFlatMap.executor": "Run",
     "Application.MethodReference.executor": "Run",
